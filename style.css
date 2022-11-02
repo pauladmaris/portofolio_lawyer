@@ -1897,4 +1897,8 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 @media (max-width: 580px) {
   figure.avatar-box { width: 100px; }
+	
+  #text1, #text2 {
+    font-size: 16px;
+  }
 }
