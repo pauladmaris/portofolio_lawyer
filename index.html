@@ -5,11 +5,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portofoliu</title>
 
-  <link rel="shortcut icon" href="./images/logo.ico" type="image/x-icon">
+  <meta http-equiv='cache-control' content='no-cache'>
+  <meta http-equiv='expires' content='0'>
+  <meta http-equiv='pragma' content='no-cache'>
 
-  <link rel="stylesheet" href="style.css">
+  <title>Avocat Sânziana</title>
+
+  <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="style.css?v=4">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +22,8 @@
 </head>
 
 <body>
-  <main>
+
+  <main class="main">
     <aside class="sidebar" data-sidebar>
 
       <div class="sidebar-info">
@@ -34,9 +40,11 @@
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
-          <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
-            <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
-          </svg></span>
+          <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+              <path
+                d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+            </svg></span>
 
           <ion-icon name="chevron-down"></ion-icon>
         </button>
@@ -49,7 +57,7 @@
 
         <ul class="contacts-list">
 
-          <li class="contact-item">
+          <li class="contact-item email">
 
             <div class="icon-box">
               <ion-icon name="mail-outline"></ion-icon>
@@ -58,7 +66,7 @@
             <div class="contact-info">
               <p class="contact-title">Email</p>
 
-              <a href="mailto:richard@example.com" class="contact-link">Introdu email</a>
+              <a href="mailto:tatavura.sanziana@gmail.com" class="contact-link">tatavura.sanziana @gmail.com</a>
             </div>
 
           </li>
@@ -86,14 +94,16 @@
             <div class="contact-info">
               <p class="contact-title">Locatie</p>
 
-              <address>str.Libertății nr.5A, Turda, jud. Cluj</address>
+              <a href="https://goo.gl/maps/Lscj3YzHsyHUnUAJ9">
+                <address>str. Libertății nr. 5A, Turda, jud. Cluj</address>
+              </a>
             </div>
 
           </li>
 
         </ul>
 
-        <div class="separator"></div>
+        <!-- <div class="separator"></div>
 
         <ul class="social-list">
 
@@ -109,7 +119,7 @@
             </a>
           </li>
 
-        </ul>
+        </ul> -->
 
       </div>
 
@@ -152,17 +162,30 @@
         </header>
 
         <section class="about-text">
-          
+
           <p>
-            What is Lorem Ipsum?
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            &ensp;&ensp;&ensp;&ensp;Sunt absolventă a Facultății de Drept din cadrul Universității Babeș-Bolyai
+            Cluj-Napoca, membru al Baroului Cluj începând cu anul 2019 și titular al Cabinetului individual de Avocat
+            Tatavura Luana Sânziana.
+          </p>
+          <p>
+            &ensp;&ensp;&ensp;&ensp;Cabinetul meu oferă servicii de consultanță, asistență și reprezentare, având ca
+            unic obiect găsirea celor mai bune soluții pentru problemele juridice cu care vă confruntați.
+          </p>
+          <p>
+            &ensp;&ensp;&ensp;&ensp;Asigur asistarea și reprezentarea în fața instanțelor judecătorești și a altor
+            organe de jurisdicție, a organelor de urmărire penală, a autorităților și instituțiilor publice, precum și
+            în fața altor persoane fizice sau juridice.
           </p>
 
         </section>
 
         <section class="timeline">
 
-          <div class="title-wrapper">
+          <button class="contact-me-btn"><a href="tel:+40751873466"><ion-icon name="call-outline"
+                class="tel-icon"></ion-icon> FĂ-ȚI O PROGRAMARE</a></button>
+
+          <!-- <div class="title-wrapper">
             <div class="icon-box">
               <ion-icon name="book-outline"></ion-icon>
             </div>
@@ -188,14 +211,14 @@
 
             </li>
 
-          </ol>
+          </ol>-->
 
         </section>
 
-        <section class="about-text" style="border-bottom:-20px;">
+        <section class="about-text section2">
 
           <div id="title_animation">
-            <h1 id="text1">OFER </h1>
+            <h1 id="text1">DREPT </h1>
             <h1 id="text2"></h1>
           </div>
 
@@ -205,7 +228,7 @@
 
 
 
-        <!-- #DOMENII -->
+      <!-- #DOMENII -->
 
       <article class="resume" data-page="domenii">
 
@@ -213,67 +236,125 @@
           <h2 class="h2 article-title">Domenii de practică</h2>
         </header>
 
-        
+
         <section class="projects">
 
           <ul class="project-list1">
 
-            <li class="project-item  active" >
+            <li class="project-item  active">
               <!-- <a href="#"> -->
 
-                <figure class="project-img">
-                  <img src="./images/1.png" alt="finance" loading="lazy">
-                </figure>
+              <figure class="project-img">
+                <img src="./images/5.png" alt="finance" loading="lazy">
+              </figure>
 
-                <h3 class="project-title">Drept Penal</h3>
+              <h3 class="project-title">Drept Penal</h3>
 
-                <p class="project-category">Practica de Drept Penal este una dintre ariile cheie ale Departamentului nostru de Litigii. În continuă dezvoltare încă din primii ani ai activității Firmei, acest departament a devenit un reper stabil pe piața juridică și pentru mediul de afaceri din România. </p>
-               
+              <p class="project-category">Ofer consultanță și asistență juridică atât persoanelor acuzate de săvârșirea
+                unor infracțiuni, cât și persoanelor prejudiciate ca urmare a săvârșirii unei infracțiuni, atât în ceea
+                ce privește latura penală, cât și în ceea ce privește latura civilă. Asigur asistare și reprezentare în
+                fazele de urmărire penală, cameră preliminară și judecată.</p>
+
               <!-- </a> -->
             </li>
 
-            <li class="project-item  active" >
-            
-                <figure class="project-img">
-                  <img src="./images/5.png" alt="orizon" loading="lazy">
-                </figure>
+            <li class="project-item  active">
 
-                <h3 class="project-title">Drept Corporativ, Comercial, Fuziuni & Achiziții</h3>
+              <figure class="project-img">
+                <img src="./images/4.png" alt="orizon" loading="lazy">
+              </figure>
 
-                <p class="project-category">Departamentul nostru oferă servicii juridice la cele mai înalte standarde, având expertiză în consilierea companiilor în procedurile de insolvență și restructurare, companiile aflate în dificultate financiară sau faliment și în același timp consiliază companiile cu privire la prevenirea insolvenței.</p>
+              <h3 class="project-title">Drept Contravențional</h3>
 
-            </li>
-
-            <li class="project-item  active" >
-
-                <figure class="project-img">
-                  <img src="./images/3.png" alt="fundo" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Proprietate intelectuală</h3>
-
-                <p class="project-category">Departamentul de drept corporativ, comercial, fuziuni și achiziții reprezintă un domeniu cheie în cadrul societații noastre de avocatură, bucurându-se de o acoperire internațională și o abordare multidisciplinară pe care echipa noastră o adoptă în toate proiectele.</p>
+              <p class="project-category">Ofer consultanță, asistență juridică și reprezentare în materia plângerilor
+                contravenționale împotriva proceselor-verbale de constatare și sancționare a contravențiilor în materie
+                rutieră, în ceea ce privește sfera relațiilor de muncă, precum și în ceea ce privește presupusa
+                încălcare a dispozițiilor legale din alte legi speciale.</p>
 
             </li>
 
-            <li class="project-item  active" >
-   
-                <figure class="project-img">
-                  <img src="./images/6.png" alt="brawlhalla" loading="lazy">
-                </figure>
+            <li class="project-item  active">
 
-                <h3 class="project-title">Dreptul muncii</h3>
+              <figure class="project-img">
+                <img src="./images/2.png" alt="fundo" loading="lazy">
+              </figure>
 
-                <p class="project-category">Echipa noastră de avocați, extrem de eficienți și foarte calificați este determinată să înțeleagă obiectivele clienților noștri și să elaboreze soluții juridice adecvate, care să completeze strategiile operaționale de resurse umane ale acestora.</p>
+              <h3 class="project-title">Drept Civil</h3>
+
+              <p class="project-category">Asigur asistarea și reprezentarea clientului în fața instanțelor judecătorești
+                în litigii având ca obiect succesiuni, partaje, obligații, validări antecontracte, recuperări creanțe
+                (notificări, somații de plată, acțiuni în pretenții etc.), precum și în materie de carte funciară. De
+                asemenea, asigur consultanță, asistență și reprezentare în materia punerii sub ocrotire, tutelă specială
+                și curatelă.</p>
 
             </li>
+
+            <li class="project-item  active">
+
+              <figure class="project-img">
+                <img src="./images/7.png" alt="brawlhalla" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Dreptul Familiei</h3>
+
+              <p class="project-category">Ofer consultanță, asistență juridică și reprezentare în cauze având ca obiect:
+                divorț, exercitarea autorității părintești, program vizitare minori, pensie de întreținere, stabilirea
+                sau tăgada paternității, ordine de protecție, partajul bunurilor comune după divorț și transcrierea
+                actelor de stare civilă emise de autoritățile străine.</p>
+
+            </li>
+
+            <li class="project-item  active">
+
+              <figure class="project-img">
+                <img src="./images/3.png" alt="orizon" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Drept Comercial</h3>
+
+              <p class="project-category">Ofer consultanță și asistență juridică în materia dreptului comercial, precum:
+                consultanță juridică permanentă pentru societăți, redactare acte și reprezentare în relația cu Oficiul
+                Registrului Comerțului ( înființare societăți, modificări acte, majorare capital social etc.),
+                înființare persoane juridice fără scop patrimonial (asociații/fundații).</p>
+
+            </li>
+
+            <li class="project-item  active">
+
+              <figure class="project-img">
+                <img src="./images/1.png" alt="fundo" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Accidente Rutiere sau de Muncă</h3>
+
+              <p class="project-category">În situația în care ați fost victima unui accident rutier sau de muncă,
+                cabinetul meu vă stă la dispoziție pentru rezolvarea situației. Recuperarea prejudiciului cauzat se
+                poate realiza fie pe cale amiabilă, fie prin intermediul instanțelor de judecată.</p>
+
+            </li>
+
+            <li class="project-item  active">
+
+              <figure class="project-img">
+                <img src="./images/6.png" alt="brawlhalla" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Executare Silită</h3>
+
+              <p class="project-category">Ofer asistență juridică în domeniul executării silite, prin formularea
+                cererilor de executare silită, precum și prin asistarea și reprezentarea clienților pe tot parcursul
+                acestei proceduri. De asemenea, ofer consultanță și asistență juridică în procedura contestației la
+                executare.</p>
+
+            </li>
+
 
           </ul>
 
         </section>
 
 
-        
+
         <!--
           - testimonials
         -->
@@ -291,29 +372,12 @@
                   <img src="./images/avatar.jpg" alt="Daniel lewis" width="80" data-modal-img>
                 </figure>
 
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Mureșan M.</h4>
 
                 <div class="testimonials-text" data-testimonials-text data-testimonials-avatar>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-                
-                <figure class="modal-avatar-box" style="display:none;">
-                  <img src="./images/avatar.jpg" alt="Daniel lewis" width="80" data-modal-img>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
-
-                <div class="testimonials-text" data-testimonials-text data-testimonials-avatar>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Am fost reprezentată de doamna avocat într-un proces de divorț în fața Judecătoriei Cluj-Napoca, iar
+                    senzația pe care mi-a lăsat-o a fost că este un om cald, echilibrat și un bun profesionist.”
                   </p>
                 </div>
 
@@ -327,15 +391,11 @@
                   <img src="./images/avatar.jpg" alt="Daniel lewis" width="80" data-modal-img>
                 </figure>
 
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Pop I.</h4>
 
                 <div class="testimonials-text" data-testimonials-text data-testimonials-avatar>
                   <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                    Problemele mele juridice au fost rezolvate cu promptitudine.
                   </p>
                 </div>
 
@@ -349,11 +409,31 @@
                   <img src="./images/avatar.jpg" alt="Daniel lewis" width="80" data-modal-img>
                 </figure>
 
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Mitrea A.</h4>
 
                 <div class="testimonials-text" data-testimonials-text data-testimonials-avatar>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Colaborarea mea cu doamna avocat Tatavura Luana Sânziana poate fi descrisă în câteva cuvinte:
+                    deschidere, respectarea dispozițiilor legale și comunicare facilă.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="modal-avatar-box" style="display:none;">
+                  <img src="./images/avatar.jpg" alt="Daniel lewis" width="80" data-modal-img>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Ungurean D.</h4>
+
+                <div class="testimonials-text" data-testimonials-text data-testimonials-avatar>
+                  <p>
+                    Am fost asistat de doamna avocat la încheierea unei tranzacții judiciare și am fost foarte mulțumit
+                    în urma colaborării noastre.
                   </p>
                 </div>
 
@@ -366,7 +446,6 @@
 
 
         <!-- testimonials modal -->
-        
 
         <div class="modal-container" data-modal-container>
 
@@ -388,17 +467,21 @@
 
             <div class="modal-content">
 
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+              <h4 class="h3 modal-title" data-modal-title>Pop I.</h4>
 
-              <time datetime="2021-06-14">14 June, 2021</time>
+              <div data-model-text style="display: flex; flex-direction: row; padding-bottom: 5px;">
+                <ion-icon name="star" class="star"></ion-icon>
+                <ion-icon name="star" class="star"></ion-icon>
+                <ion-icon name="star" class="star"></ion-icon>
+                <ion-icon name="star" class="star"></ion-icon>
+                <ion-icon name="star" class="star"></ion-icon>
+              </div>
+
+              <!-- <time datetime="2021-06-14">14 June, 2021</time> -->
 
               <div data-modal-text>
                 <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  Problemele mele juridice au fost rezolvate cu promptitudine.
                 </p>
               </div>
 
@@ -408,11 +491,10 @@
 
         </div>
 
-
       </article>
 
 
-      
+
 
       <!--
         - #BLOG
@@ -424,25 +506,37 @@
           <h2 class="h2 article-title">Blog</h2>
         </header>
 
-        
+
         <section class="projects">
 
           <ul class="filter-list">
 
             <li class="filter-item">
-              <button class="active" data-filter-btn data-filter-item id="all">Toate</button>
+              <button class="active" data-filter-btn data-filter-item id="all">Toate (4)</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Domeniul 1</button>
+              <div style="display: flex;"><button data-filter-btn>Drept Penal</button>
+                <div style="padding-left:3px; color:hsla(0, 0%, 84%, 0.856);">(2)</div>
+              </div>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Domeniul 2</button>
+              <div style="display: flex;"><button data-filter-btn>Drept Civil</button>
+                <div style="padding-left:3px; color:hsla(0, 0%, 84%, 0.856);">(2)</div>
+              </div>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Domeniul 3</button>
+              <button data-filter-btn>Drept Contravențional</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Dreptul Familiei</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Drept Comercial</button>
             </li>
 
           </ul>
@@ -462,19 +556,33 @@
             <ul class="select-list">
 
               <li class="select-item">
-                <button data-select-item id="all2">Toate</button>
+                <button data-select-item id="all2">Toate (4)</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Domeniul 1</button>
+                <div style="display: flex;"><button data-filter-btn>Drept Penal</button>
+                  <div style="padding-top: 7px; color:hsla(0, 0%, 84%, 0.856);">(2)</div>
+                </div>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Domeniul 2</button>
+
+                <div style="display: flex;"><button data-filter-btn>Drept Civil</button>
+                  <div style="padding-top: 7px; color:hsla(0, 0%, 84%, 0.856);">(2)</div>
+                </div>
+
               </li>
 
               <li class="select-item">
-                <button data-select-item>Domeniul 3</button>
+                <button data-select-item>Drept Contravențional</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Dreptul Familiei</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Drept Comercial</button>
               </li>
 
             </ul>
@@ -483,85 +591,171 @@
 
           <ul class="project-list">
 
-            <li class="project-item blog active" data-filter-item data-category="domeniul 1">
-
-                <h3 class="project-title blog">Drept Penal</h3>
-
+            <a href="blog/drept-penal2.html">
+              <li class="project-item blog active" data-filter-item data-category="drept penal">
+                <h3 class="project-title blog">CONDUCEREA AUTOVEHICULULUI CU DREPTUL DE A CONDUCE SUSPENDAT. CONDAMNARE LA PEDEAPSA AMENZII. </h3>
+  
                 <div style="display:flex; margin-left:9px;">
-                  <ion-icon style="color:rgba(125, 112, 112, 0.635); font-size: 12px;" name="time"></ion-icon>
-                  <h2 class="project-title info"> 10 SEPTEMBRIE 2022</h2>
+                  <ion-icon style="color:hsla(45, 100%, 71%, 0.676) ; font-size: 12px;" name="time"></ion-icon>
+                  <h2 class="project-title info"> 28 FEBRUARIE 2023</h2>
                 </div>
-
-                <p class="project-category">Practica de Drept Penal este una dintre ariile cheie ale Departamentului nostru de Litigii. În continuă dezvoltare încă din primii ani ai activității Firmei, acest departament a 
-                  devenit un reper stabil pe piața juridică și pentru mediul de afaceri din România. </p>
+                <p class="project-category">
+                  &ensp;&ensp;&ensp;&ensp; Potrivit art. 335 alin. (2) Cod Penal, conducerea pe drumurile publice a unui vehicul pentru care legea prevede obligativitatea deținerii permisului de conducere de către o persoană al cărei permis de conducere este necorespunzător categoriei sau subcategoriei din care face parte vehiculul respectiv ori al cărei permis i-a fost restras sau anulat, <b>ori căreia exercitarea dreptului de a conduce i-a fost suspendată sau care nu are dreptul de a conduce autovehicule în România </b> se pedepsește cu <b>închisoare de la 6 luni la 3 ani sau cu amendă. </b>
+                </p>
                 <br>
-                <p class="project-category">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at 
-                  Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. 
-                  Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. 
-                  The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-                  The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied 
-                  by English versions from the 1914 translation by H. Rackham.</p>
-            </li>
-
-            <li class="project-item blog active" data-filter-item data-category="domeniul 1">
-            
-                <h3 class="project-title blog">Drept Corporativ, Comercial, Fuziuni & Achiziții</h3>
-
-                <div style="display:flex; margin-left:9px;">
-                  <ion-icon style="color:rgba(125, 112, 112, 0.635); font-size: 12px;" name="time"></ion-icon>
-                  <h2 class="project-title info"> 10 SEPTEMBRIE 2022</h2>
-                </div>
-
-                <p class="project-category">Departamentul nostru oferă servicii juridice la cele mai înalte standarde, având expertiză în consilierea companiilor în procedurile de insolvență și restructurare, companiile aflate în dificultate financiară sau faliment și în același timp consiliază companiile cu privire la prevenirea insolvenței.</p>
-
-            </li>
-
-            <li class="project-item blog active" data-filter-item data-category="domeniul 2">
-
-                <h3 class="project-title blog">Proprietate intelectuală</h3>
-
-                <div style="display:flex; margin-left:9px;">
-                  <ion-icon style="color:rgba(125, 112, 112, 0.635); font-size: 12px;" name="time"></ion-icon>
-                  <h2 class="project-title info"> 10 SEPTEMBRIE 2022</h2>
-                </div>
-
-                <p class="project-category">Departamentul de drept corporativ, comercial, fuziuni și achiziții reprezintă un domeniu cheie în cadrul societații noastre de avocatură, bucurându-se de o acoperire internațională și o abordare multidisciplinară pe care echipa noastră o adoptă în toate proiectele.</p>
+                <p class="project-category">
+                  &ensp;&ensp;&ensp;&ensp;În speță, inculpatul M.R. a fost trimis în judecată pentru săvârșirea infracțiunii de conducere a unui vehicul fără permis de conducere în forma conducerii unui vehicul având exercitarea dreptului de a conduce suspendată.
+                </p>
+                <p class="project-category">
+                  &ensp;&ensp;&ensp;&ensp;Așa cum a rezultat atât din declarația inculpatului, cât și din declarația martorului, unicul motiv pentru care inculpatul a decis să conducă autovehiculul a fost acela că șoferului inițial i s-a făcut rău și nu a mai putut conduce autoturismul. Mai mult, cei doi s-au aflat în imposibilitate de a găsi altă soluție, fiind trecut de miezul nopții.
+                </p>
+                
+                <p class="project-category">
+                  &ensp;&ensp;&ensp;&ensp;La primul termen de judecată, inculpatul a uzat de procedura simplificată a recunoașterii învinuirii și a solicitat să fie judecat în baza probelor administrate în cursul urmăririi penale. Inculpatul a depus la dosar o serie de înscrisuri în circumstanțiere prin care a arătat că este angajat cu contract de muncă, nu are datorii la bugetul de stat și este unicul întreținător al familiei sale, solicitând condamnarea la pedeapsa amenzii, <b>întrucât dispune de mijloacele financiare necesare pentru a o achita.</b>
+                </p> 
                 <br>
-                <p class="project-category">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at 
-                  Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. 
-                  Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. 
-                  The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                <p class="project-category">
+                  &ensp;&ensp;&ensp;&ensp;Prin <b>Sentința Penală nr. 404/2022 </b>pronunțată de Judecătoria Turda la data de 11.10.2022, instanța a dispus condamnarea inculpatului M.R. la <b>pedeapsa amenzii penale în cuantum de 4000 lei. </b>
+                </p>
+                <p class="project-category">
+                  &ensp;&ensp;&ensp;&ensp; La stabilirea acestei pedepse, instanța a ținut cont de atitudinea sinceră pe care inculpatul a avut-o în timpul procesului, recunoscând și regretând fapta comisă, de faptul că a cooperat cu organele judiciare și, cel mai important, a ținut cont de circumstanțele particulare ale speței.
+                </p>
+                <br>
+                <p class="project-category">
+                  &ensp;&ensp;&ensp;&ensp; Asistența juridică și reprezentarea inculpatului în fața instanței a fost realizată de către avocat Tatavura Luana Sânziana.
+                </p>
+              </li>
+            </a>
 
-                  The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied 
-                  by English versions from the 1914 translation by H. Rackham.</p>
+            <a href="blog/drept-civil2.html">
+              <li class="project-item blog active" data-filter-item data-category="drept civil">
+                <h3 class="project-title blog">SUSPENDAREA PROCEDURII SPECIALE A EVACUĂRII. INVOCARE DREPT DE RETENȚIE. </h3>
+  
+                <div style="display:flex; margin-left:9px;">
+                  <ion-icon style="color:hsla(45, 100%, 71%, 0.676) ; font-size: 12px;" name="time"></ion-icon>
+                  <h2 class="project-title info"> 21 FEBRUARIE 2023</h2>
+                </div>
+                <p class="project-category">
+                  &ensp;&ensp;&ensp;&ensp; Potrivit art. 413 alin. (1) pct. 1 C.pr.civ., instanța poate suspenda judecata când dezlegarea cauzei depinde, în tot sau în parte, de existența ori inexistența unui drept care face obiectul unei alte judecăți.
+                </p>
+                <br>
+                <p class="project-category">
+                  &ensp;&ensp;&ensp;&ensp;În speță, reclamanta F.D.L. a înregistrat pe rolul Judecătoriei Turda o cerere prin care a solicitat <b> evacuarea </b>pârâților V.D.L, V.A.C și V.D.C. din imobilul proprietatea acesteia. 
+                </p>
+                <p class="project-category">
+                  &ensp;&ensp;&ensp;&ensp;La termenul de judecată, pârâții au solicitat suspendarea evacuării, întrucât aceștia introduseseră anterior o cerere de chemare în judecată pe rolul Judecătoriei prin care solicitau numitei F.D.L. să îi despăgubească pentru investițiile aduse imobilului și solicitau instanței să constate existența dreptului de retenție asupra imonilului care făcea obiectul cererii de evacuare.
+                </p>
+                <br>
+                <p class="project-category">
+                  &ensp;&ensp;&ensp;&ensp;Prin <b>Încheierea Civilă</b> pronunțată de Judecătoria Turda în ședința camerei de consiliu din data de 08.07.2022, <b>instanța a dispus suspendarea judecării cererii având ca obiect evacuare. </b>
+                </p> 
+                <p class="project-category">
+                  &ensp;&ensp;&ensp;&ensp;În motivare, instanța a arătat că dreptul de retenție este un drept real de garanție imperfect, ce constă în posibilitatea deținătorului unui lucru mobil sau imobil al altuia de a refuza remiterea sau restituirea acelui lucru către creditor până când acesta nu își execută obligația sa izvorâtă din același raport de drept sau, după caz, atât timp cât creditorul nu îl despăgubește pentru cheltuielile necesare și utile pe care le-a făcut pentru acel bun ori pentru prejudiciile pe care bunul i le-a cauzat, conform art. 2495 Cod Civil. 
+                </p>
+                <p class="project-category">
+                  &ensp;&ensp;&ensp;&ensp; Din această perspectivă, instanța a apreciat că sunt îndeplinite condițiile prevăzute de art. 413 alin. (1) pct. 1 C.pr.civ. și a dispus suspendarea judecării cererii de evacuare.
+                </p>
+                <br>
+                <p class="project-category">
+                  &ensp;&ensp;&ensp;&ensp; Așadar, prin invocarea <b>dreptului de retenție</b>, pârâții au reușit să blocheze temporar evacuarea lor din imobilul aflat în proprietatea reclamantei până când aceasta din urmă îi va fi despăgubit pentru investițiile pe care aceștia le-au efectuat asupra imobilului în discuție.
+                </p>
+                <br>
+                <p class="project-category">
+                  &ensp;&ensp;&ensp;&ensp; Pârâții au fost asistați pe parcursul întregii proceduri și reprezentați în fața instanței de către avocat Tatavura Luana Sânziana.
+                </p>
+              </li>
+            </a>
+
+
+            <a href="blog/drept-penal1.html">
+            <li class="project-item blog active" data-filter-item data-category="drept penal">
+
+              <h3 class="project-title blog">RESPINGEREA ÎNLOCUIRII MĂSURII PREVENTIVE A CONTROLULUI JUDICIAR CU MĂSURA ARESTĂRII PREVENTIVE. APRECIERE ASUPRA RELEI-CREDINȚE A INCULPATULUI. </h3>
+
+              <div style="display:flex; margin-left:9px;">
+                <ion-icon style="color:hsla(45, 100%, 71%, 0.676) ; font-size: 12px;" name="time"></ion-icon>
+                <h2 class="project-title info"> 14 FEBRUARIE 2023</h2>
+              </div>
+              <p class="project-category">
+                &ensp;&ensp;&ensp;&ensp; Potrivit art. 215 alin. (7) C.proc.pen., ,,În cazul în care, pe durata măsurii controlului judiciar, inculpatul încalcă, cu rea-credință, obligațiile care îi revin sau există suspiciunea rezonabilă că a săvârșit cu intenție o nouă infracțiune pentru care s-a dispus punerea în mișcare a acțiunii penale împotriva sa, judecătorul de drepturi și libertăți, judecătorul de cameră preliminară sau instanța de judecată, la cererea procurorului sau din oficiu, poate dispune înlocuirea acestei măsuri cu măsura arestului la domiciliu sau a arestării preventive, în condițiile prevăzute de lege.”
+              </p>
+              <br>
+              <p class="project-category">
+                &ensp;&ensp;&ensp;&ensp;În speță, prin Rechizitoriul Parchetului de pe lângă Judecătoria Turda a fost trimis în judecată inculpatul G.D.R. pentru săvârșirea infracțiunii de tâlhărie.
+              </p>
+              <p class="project-category">
+                &ensp;&ensp;&ensp;&ensp;În cursul judecății, față de inculpat a fost luată măsura preventivă a controlului judiciar pentru o perioadă de 60 de zile. Una dintre obligațiile pe care trebuia să le respecte pe durata măsurii era aceea de a se supune programului de supraveghere stabilit și să se prezinte la organul judiciar ori de câte ori este chemat. 
+              </p>
+              <p class="project-category">
+                &ensp;&ensp;&ensp;&ensp;Judecătoria Turda a fost sesizată cu o cerere de înlocuire a măsurii controlului judiciar cu măsura arestării preventive, pe motiv că inculpatul, cu rea-credință, nu și-a îndeplinit obligația de a se prezenta la organul de poliție însărcinat cu supravegherea sa în datele de 22.12.2022, 24.12.2022 și 28.12.2022. Pe parcursul cercetării judecătorești, inculpatul a declarat că nu știa că trebuia să se prezinte la semnat, întrucât credea că măsura controlului judiciar încetase.
+              </p> <br>
+              <p class="project-category">
+                &ensp;&ensp;&ensp;&ensp;Prin <b>Încheierea Penală nr. 14/2023 </b> pronunțată de Judecătoria Turda la data de 25.01.2023, <b> instanța a respins ca neîntemeiată cererea de înlocuire a măsurii controlului judiciar </b>, reținând că în cauză nu s-a făcut dovada existenței unei rele-credințe a inculpatului.
+              </p>
+              <p class="project-category">
+                &ensp;&ensp;&ensp;&ensp; Instanța a apreciat că această neprezentare la termenele stabilite de organul de supraveghere au fost cauzate mai degrabă de modul deficitar de a înțelege termenii juridici și de lipsa de experiență a inculpatului, care are vârsta de 16 ani. 
+              </p>
+              <p class="project-category">
+                &ensp;&ensp;&ensp;&ensp; Instanța a apreciat că nu se poate reține reaua-credință a inculpatului, întrucât nu a existat intenția acestuia de a se sustrage de la îndeplinirea acestei obligații, cu atât mai mult cu cât acesta s-a prezentat la poliție de îndată ce i s-a explicat că măsura controlului judiciar subzistă.  
+              </p>
+            </li>
+            </a>
+
+            <a href="blog/drept-civil1.html">
+              <li class="project-item blog active" data-filter-item data-category="drept civil">
+  
+                <h3 class="project-title blog">RECTIFICARE CARTE FUNCIARĂ. RADIEREA NOTĂRILOR DIN CARTEA FUNCIARĂ.
+                  IMPRESCRIPTIBILITATE </h3>
+  
+                <div style="display:flex; margin-left:9px;">
+                  <ion-icon style="color:hsla(45, 100%, 71%, 0.676) ; font-size: 12px;" name="time"></ion-icon>
+                  <h2 class="project-title info"> 7 FEBRUARIE 2023</h2>
+                </div>
+                <p class="project-category">
+                  &ensp;&ensp;&ensp;&ensp; Potrivit art. 908 alin. (1) pct. 4 Cod Civil, orice persoană interesată poate
+                  cere rectificarea unui intabulări sau înscrieri provizorii, dacă înscrierea în cartea funciară nu mai
+                  este, din orice alte motive, în concordanță cu situația juridică reală a imobilului. Aceste dispoziții
+                  se aplică și notărilor, iar dreptul la acțiune este imprescriptibil.
+                </p>
+                <br>
+                <p class="project-category">
+                  &ensp;&ensp;&ensp;&ensp;În speță, reclamanta T.L.V. este unic proprietar al unui apartament situat în
+                  comuna Florești, urmare a unui act de parcelare și partaj voluntar încheiat cu constructorul blocului în
+                  anul 2011.
+                </p>
+                <p class="project-category">
+                  &ensp;&ensp;&ensp;&ensp;În CF-ul apartamentului reclamantei figurau însă alte 30 de notări care nu aveau
+                  legătură cu apartamentul acesteia, respectiv antecontracte de vânzare-cumpărare încheiate între
+                  constructor și diferite persoane, toate încheiate între anii 2009-2011. Aceste notări au fost transcrise
+                  automat în CF-ul apartamentului reclamantei, deși nu aveau ca obiect apartamentul în discuție.
+                </p>
+                <p class="project-category">
                   <br>
-                <p class="project-category">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at 
-                  Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. 
-                  Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. 
-                  The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-                  The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied 
-                  by English versions from the 1914 translation by H. Rackham.</p>
-            </li>
-
-            <li class="project-item blog active" data-filter-item data-category="domeniul 3">
-
-                <h3 class="project-title blog">Dreptul muncii</h3>
-
-                <div style="display:flex; margin-left:9px;">
-                  <ion-icon style="color:rgba(125, 112, 112, 0.635); font-size: 12px;" name="time"></ion-icon>
-                  <h2 class="project-title info"> 10 SEPTEMBRIE 2022</h2>
-                </div>
-
-                <p class="project-category">Echipa noastră de avocați, extrem de eficienți și foarte calificați este determinată să înțeleagă obiectivele clienților noștri și să elaboreze soluții juridice adecvate, care să completeze strategiile operaționale de resurse umane ale acestora.</p>
-
-            </li>
+                  &ensp;&ensp;&ensp;&ensp;Prin <b>Sentința Civilă nr. 1875/2022 </b> pronunțată de Judecătoria Cluj-Napoca
+                  la data de 05.04.2022, <b> instanța a admis cererea de rectificare a cărții funciare </b> și a dispus
+                  <b>radierea notărilor </b> din CF-ul apartamentului reclamantei.
+                </p>
+                <p class="project-category">
+                  &ensp;&ensp;&ensp;&ensp;În motivare, instanța arată că ,,în contextul în care notările în discuție nu
+                  privesc apartamentul reclamantei, nu există nicio rațiune pentru care acestea să se regăsească în cartea
+                  funciară a imobilului, fiind incidentă situația premisă reglementată de art. 908 alin. (1) pct. 4 C.
+                  civ. Astfel, notările având ca obiect antecontractele încheiate de către pârâți cu privire la alte
+                  imobile apartamente din cadrul aceluiași condominiu nu reflectă situația juridică a apartamentului
+                  reclamantei.”
+                </p>
+                <br>
+                <p class="project-category">
+                  &ensp;&ensp;&ensp;&ensp; <b>Redactarea cererii de chemare în judecată, asistarea și reprezentarea
+                    reclamantei în fața Judecătoriei Cluj-Napoca au fost realizate de către avocat Tatavura Luana
+                    Sânziana. </b>
+                </p>
+              </li>
+              </a>
 
           </ul>
 
         </section>
-        
+
       </article>
 
 
@@ -586,34 +780,102 @@
 
         <section class="contact-form">
 
-          <h3 class="h3 form-title">Formular de contact:</h3>
+          <section id="contact-form2">
+            <h3 class="h4 form-title" style="text-align:start;">Formular de contact:</h3>
 
-          <form action="mailto:pauladmaris@gmail.com" method="post" class="form" method="post" data-form enctype="text/plain">
+            <form action="mailto:tatavura.sanziana@gmail.com" method="post" class="form" method="post" data-form
+              enctype="text/plain">
 
-            <div class="input-wrapper">
-              <input type="text" name="Nume" class="form-input" placeholder="Nume" required data-form-input>
+              <div class="input-wrapper" style="display:flex; flex-direction: column;">
+                <input type="text" name="Nume" class="form-input" autocomplete="off" placeholder="Nume" required
+                  data-form-input>
 
-              <input type="tel" name="Telefon" class="form-input" placeholder="Telefon" required data-form-input>
-            </div>
+                <input type="tel" name="Telefon" class="form-input" autocomplete="off" placeholder="Telefon" required
+                  data-form-input>
+              </div>
 
-            <textarea name="Mesaj" class="form-input" placeholder="Mesaj" required data-form-input></textarea>
+              <textarea name="Mesaj" class="form-input" placeholder="Mesaj" autocomplete="off" required
+                data-form-input></textarea>
 
-            <button class="form-btn" type="submit" data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Trimite</span>
-            </button>
+              <ul class="checkbox" style="display:flex; padding-left: 5px;margin-top: -10px;">
+                <ul class="checkbox2" style="display:flex; padding-left: 5px">
+                  <li><input type="checkbox" id="checkbox"> </li>
+                  <li> Am citit și sunt de acord cu </li>
+                  <li>
+                </ul><a style="font-size:12px;" href="terms.html">Termenii și condițiile.</a></li>
+              </ul>
+              <button class="form-btn" type="submit" id="send-btn" data-form-btn disabled>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Trimite</span>
+              </button>
 
-          </form>
+            </form>
+          </section>
 
+          <div style="width:20px;"></div>
+
+          <section id="contact-form2">
+
+            <h3 class="h4 form-title">Cabinet de Avocat <br> Tatavura Luana-Sânziana</h3>
+
+            <hr style="margin-bottom: 20px;">
+
+            <ul style="width:fit-content; float:right">
+              <li class="contact-item" style="float: right; min-width: fit-content; padding-bottom: 15px;">
+                <a href="tel:+40751873466" class="contact-me-a" style="display:revert;">0751 873 466</a>
+                <ion-icon name="call-outline" style="color:white;text-align: end;"></ion-icon>
+              </li>
+
+              <br>
+
+              <li class="contact-item" style="float: right; min-width: fit-content;padding-bottom: 15px;">
+                <a href="mailto:tatavura.sanziana@gmail.com" style="color:white;display:revert;"
+                  class="contact-link">tatavura.sanziana@gmail.com</a>
+                <ion-icon name="mail-outline" style="color: white; text-align: end;"></ion-icon>
+              </li>
+
+              <br>
+
+              <li class="contact-item" style="float: right; min-width: fit-content; padding-bottom: 15px;">
+                <address style="color:white;display:revert; font-style: normal;">str. Libertății nr. 5A, Turda, jud.
+                  Cluj</address>
+                <ion-icon name="location-outline" style="color:white;text-align:end;"></ion-icon>
+              </li>
+            </ul>
+          </section>
         </section>
 
       </article>
+
+
 
     </div>
 
   </main>
 
-  <script src="script.js"></script>
+  <div class="footer">
+    <div style="display:flex; flex-direction:row;">
+      <a href="terms.html">Termeni și Condiții / </a> <a href="politica.html"> Politica de Confidențialitate </a>
+    </div>
+    <p>
+      Acest site este proprietatea Cabinet Avocat Tatavura Luana-Sânziana, înființat în noiembrie 2021, membru UNBR.
+    </p>
+  </div>
+
+
+  <script>
+    divElement = document.querySelector(".main");
+    elemHeight = divElement.offsetHeight;
+
+  // if(window.innerHeight < 620) {
+  //   result = elemHeight+100;
+  //   document.querySelector(".footer").setAttribute("style","top:"+ result+"px");
+  // } 
+
+  </script>
+
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js">  </script> -->
+  <script src="script.js?v=1"></script>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
