@@ -1,7 +1,18 @@
 'use strict';
 
+const checkbox = document.getElementById('checkbox');
+
+checkbox.addEventListener('change', (event) => {
+  if (event.currentTarget.checked) {
+    document.getElementById("send-btn").disabled = false;
+  } else {
+    document.getElementById("send-btn").disabled = true;
+  }
+});
+
+
 // text animation
-var words = ["EXCELENȚĂ.", "RAPIDITATE.", "SERIOZITATE."];
+var words = ["PENAL.", "CIVIL.","COMERCIAL.", "CONTRAVENȚIONAL."];
 
 var counter = 0;
 var currentIndex = getRandomInt(0, words.length - 1);
